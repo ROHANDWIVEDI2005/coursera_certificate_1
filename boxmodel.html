@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>box model in html</title>
+    <style>
+        * {
+            box-sizing:border-box;
+        }
+        
+        body{
+            background-color:grey;
+            margin: 0;
+            padding:0;
+
+        } 
+        #box {
+            background-color:red;
+            padding:30px;
+            border:30px solid black;
+            margin:40px;
+            width:200px;
+            box-sizing:border-box;
+            overflow:hidden;
+
+             
+        }
+        #content{
+             background-color: #90ee90;
+             overflow:auto;
+             
+             
+            
+        } 
+        h1{
+            margin: 50px;
+        }
+
+    </style>
+    
+    </head>
+    <body>
+         <!-- dont use auto in overflow -->
+         
+        <h1>box model</h1>
+        <div id="box">some content for example 
+        <p>there are some things to remember
+            in box model
+            <ul id="content">
+                <li>padding</li>
+                <li>
+                    border
+                </li>
+                <li>
+                    margine
+                </li>
+            <li>box sizing should always be border box instead of content box</li>            </ul>
+        apply in the entire code
+        
+        </p>
+        </div>
+        
+    </body>
+
+</html>

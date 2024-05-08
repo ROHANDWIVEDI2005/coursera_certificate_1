@@ -19,10 +19,9 @@ font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, O
     height:150px;
     margin:15px 10px 15px 0;
 
-
-
-    
- 
+.navbar-toggle .icon-bar {
+        background-color: black; /* Change to your desired color */
+    }
 
 
 }

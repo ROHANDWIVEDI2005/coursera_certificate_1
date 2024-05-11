@@ -6,9 +6,15 @@
     <title>WEBSITE</title>
   <link rel ="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
 
     </head>
     <body>
+        <div>
+            <div class="wave"></div>
+            <div class="wave"></div>
+            <div class="wave"></div>
+         </div>
         <header id="header-photo">
             <nav id="header-nav" class="navbar navbar-default">
 
@@ -28,25 +34,34 @@
             
                     
                         <div class="nav-item float-end d-none d-md-block d-lg-block">
-                            <a href="certification.html" class="nav-link active"aria-current="page">
+                            <a href="certification.html"  data-mbd-ripple-init  class="btn btn-outline-light btn-lg" role="button">
                                 
-                            Certifications                               
+                            Certifications                                  
                             </a>
                         </div>
                         <div class="nav-item float-end  d-none d-md-block d-lg-block">
-                            <a href="qualifications.html" class="nav-link active" aria-current="page">
+                            <a href="qualifications.html" data-mbd-ripple-init  class="btn btn-outline-light btn-lg" role="button" >
+                                
                                 Qualifications
+
+
                             </a>
                         </div>
+                        <div class="nav-item float-end d-none d-md-block d-lg-block">
+                            <a href="certification.html"  data-mbd-ripple-init  class="btn btn-outline-light btn-lg" role="button">
+                                Projects  made 
+                            </a>
+                        </div>
+                                
                 
                     
 
                 
                     
-                    <button class=" d-sm-block d-md-none d-lg-none  btn btn-dark" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-label="Toggle navigation">
+                    <button class=" d-sm-block d-md-none d-lg-none  btn btn-outline-light float-end" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-label="Toggle navigation">
                         
-                        <span class=""> menu</span>
-                      
+                        
+                        <i class="bi bi-list"></i>
                       </button>
                     <div id="navbarSupportedContent" class="navbar-collapse collapse">
                         <ul id="nav-list" class="nav navbar-nav me-auto mb-2 mb-lg-0">
@@ -61,6 +76,12 @@
                                    <span> Qualifications</span>
                                 </a>
                             </li>
+                            <li class="nav-item">
+                                <a href="qualifications.html" class="nav-link active" aria-current="page">
+                                   <span>Projects</span>
+                                </a>
+                            </li>
+
 
                         </ul>
                     
@@ -72,8 +93,9 @@
             </nav> 
 
         </header>
-
-
+    
+      
+      
       
         <script src="js/jquery-3.7.1.js"></script>
         <script src="js/bootstrap.min.js"></script>
